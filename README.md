@@ -1,6 +1,6 @@
 # BLACK Reloaded Mod
 
-**Mods for BLACK (Criterion Games, 2006) in a single `winmm.dll`: jump, sprint, noclip, fall damage, free camera,
+**A Modpack for BLACK (Criterion Games, 2006) in a single `winmm.dll` with several new functions, game modes, and QoL improvements: jump, sprint, noclip, fall damage, free camera,
 third person with a body, modern aim, cheats, gold weapons, enemy multiplier, squad mode, the challenge mode that was
 cut from the game, speedrun, a fifth difficulty and a MODS page inside the pause menu, where almost everything turns
 on, off and is adjusted while you play.**
