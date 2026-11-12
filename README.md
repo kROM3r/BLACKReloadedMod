@@ -8,7 +8,7 @@ on, off and is adjusted while you play.**
 [**Download**](../../releases/latest) · [Português (Brasil)](README.pt-BR.md) · [Compatibility](#compatibility) ·
 [Install](#install) · [The mods](#the-mods) · [Troubleshooting](#troubleshooting)
 
-![The character display on the MODS page](images/Reloaded_Mod_Logo.jpg)
+![The character display on the MODS page](images/Reloaded_Mod_Logo.png)
 
 ## Compatibility
 
