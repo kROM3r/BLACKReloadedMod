@@ -1,6 +1,6 @@
 # BLACK Reloaded Mod
 
-**Mods for BLACK (Criterion Games, 2006) in a single `winmm.dll`: jump, sprint, noclip, fall damage, free camera,
+**A Modpack for BLACK (Criterion Games, 2006) with several features and new QoL improvements in a single `winmm.dll`: jump, sprint, noclip, fall damage, free camera,
 third person with a body, modern aim, cheats, gold weapons, enemy multiplier, squad mode, the challenge mode that was
 cut from the game, speedrun, a fifth difficulty and a MODS page inside the pause menu, where almost everything turns
 on, off and is adjusted while you play.**
@@ -8,17 +8,22 @@ on, off and is adjusted while you play.**
 [**Download**](../../releases/latest) · [Português (Brasil)](README.pt-BR.md) · [Compatibility](#compatibility) ·
 [Install](#install) · [The mods](#the-mods) · [Troubleshooting](#troubleshooting)
 
+![The character display on the MODS page](images/Reloaded_Mod_Logo.jpg)
+
 ## Compatibility
 
-Version **1.9** works on **both ways of playing BLACK on PC**, the **XBE Recomp** and the **PC port by Spark198**, and
-with **both versions of the game's language**: the **original US disc**, in English, and the same disc with the
-**PT-BR translation**. Each package was tested with both versions of the game.
+Version **1.9** supports **two ways of playing BLACK on PC**:
+
+- the **XBE Recomp of BLACK, version V3 or newer**;
+- the **PC port of BLACK by Spark198, version 0.3.0**.
+
+Both work with **both versions of the game's language**: the **original US disc**, in English, and the same disc with
+the **PT-BR translation**. Each package was tested with both versions of the game.
 
 | | Original game (US disc, English) | Game with the PT-BR translation |
 |---|---|---|
-| **XBE Recomp** | ✔ the mod in English | ✔ the mod in Portuguese: it notices the translation by itself |
+| **XBE Recomp V3 or newer** | ✔ the mod in English | ✔ the mod in Portuguese: it notices the translation by itself |
 | **PC port 0.3.0** | ✔ the mod in English | ✔ the game in Portuguese, the mod in English |
-| **PC port 0.2.0** | ✔ the game in English, the mod in Portuguese | ✔ the mod in Portuguese |
 
 ### Which package do I download?
 
@@ -26,13 +31,13 @@ Pick it by the way you play; the game's language does not change the choice.
 
 | You play on | Package | The mod's texts | Mods |
 |---|---|---|---|
-| the XBE Recomp of BLACK | `BLACK_Reloaded_Mod_1.9_XBERecomp.zip` | the game's language, chosen by itself: English or Brazilian Portuguese | 24 |
+| the XBE Recomp of BLACK, V3 or newer | `BLACK_Reloaded_Mod_1.9_XBERecomp.zip` | the game's language, chosen by itself: English or Brazilian Portuguese | 24 |
 | the PC port 0.3.0 by Spark198 | `BLACK_Reloaded_Mod_1.9_Port_Spark198_0.3.0_EN.zip` | English | 26 |
 
-All builds have the same gameplay mods. The recomp build adds the clean sound mode. The port builds add the reload
-blur removal (the recomp has its own option for it), faster menu texts and a crash log; the PT-BR port build also
-puts the port's PC SETTINGS in Portuguese. Each package's `winmm.dll` works only with its own way of playing (and, on
-the port, its own port version). The game's language is covered in [The game's language](#the-games-language).
+Both builds have the same gameplay mods. The recomp build adds the clean sound mode. The port build adds the reload
+blur removal (the recomp has its own option for it), faster menu texts and a crash log. Each package's `winmm.dll`
+works only with its own way of playing: the recomp build with the XBE Recomp V3 or newer, the port build with the port
+0.3.0. The game's language is covered in [The game's language](#the-games-language).
 
 ## Contents
 
@@ -70,8 +75,8 @@ the port, its own port version). The game's language is covered in [The game's l
 - **No game files.** The mod's menu pages, texts and gold textures are made on the spot from your own copy of the game.
 - **Fixes of the game.** A crash in the collision test, a crash at checkpoints and a menu glitch of the Seventh Wave are
   fixed.
-- **Both PC versions, both languages.** The same mods on the XBE Recomp and on Spark198's port, with the original game
-  or the PT-BR translated one.
+- **Both PC versions, both languages.** The same mods on the XBE Recomp (V3 or newer) and on Spark198's port 0.3.0,
+  with the original game or the PT-BR translated one.
 
 ## The game's language
 
@@ -83,13 +88,13 @@ the port, its own port version). The game's language is covered in [The game's l
 - **No text runs over another.** The Portuguese texts are longer, so every text of the mod has a place on screen with
   a width in both languages, checked before each build: a translation that does not fit cannot ship. The MODS page's
   columns and the highlight bars are laid out for both languages.
-- **The translation's own slips, mended.** With the PT-BR disc on the recomp, and in the PT-BR port build, the mod
-  puts right what the translation gets wrong: "Black" instead of BLACK OPS, a broken MISSÃO FRACASSADA, the Hard
-  difficulty's description cut short, LIGADO and DESLIGADO one over the other in the pause OPTIONS, and highlight bars
-  too short for CONTAGEM DE CABEÇAS and OPÇÕES DO CONTROLE.
-- **On the PC port each package has one language** and runs with either version of the game. The port 0.3.0 writes
-  COMPUTER where the game says Xbox; with the translated game, the 0.3.0 build turns those sentences back into
-  Portuguese ("SEU COMPUTADOR", not "SEU COMPUTER") and BLACK OPS back to its name.
+- **The translation's own slips, mended.** With the PT-BR disc on the recomp, the mod puts right what the translation
+  gets wrong: "Black" instead of BLACK OPS, a broken MISSÃO FRACASSADA, the Hard difficulty's description cut short,
+  LIGADO and DESLIGADO one over the other in the pause OPTIONS, and highlight bars too short for CONTAGEM DE CABEÇAS
+  and OPÇÕES DO CONTROLE.
+- **On the PC port 0.3.0 the mod's texts are in English** with either version of the game. The port 0.3.0 writes
+  COMPUTER where the game says Xbox; with the translated game, the mod turns those sentences back into Portuguese
+  ("SEU COMPUTADOR", not "SEU COMPUTER") and BLACK OPS back to its name.
 - **Saves.** The game names the profile's save after its own text, so the translated disc and the original one keep
   separate profiles. The mod's own progress and records are the same for both.
 
@@ -102,19 +107,16 @@ Other regions are not supported.
 
 **XBE Recomp build**
 
-- The XBE Recomp of BLACK working with your copy of the game: `BLACK.exe`, the `compiler` folder and the disc image in
-  the `assets` folder, original or translated.
+- The XBE Recomp of BLACK, **version V3 or newer**, working with your copy of the game: `BLACK.exe`, the `compiler`
+  folder and the disc image in the `assets` folder, original or translated. The recomp shows its version at the bottom
+  right of the main menu.
 - Keep the `compiler` folder: the mod installs itself through it.
 
-**PC port 0.3.0 build (English)**
+**PC port build**
 
-- The PC port of BLACK by Spark198, version 0.3.0 (`black.exe` and `blackrt.dll`), working with your copy of the game.
+- The PC port of BLACK by Spark198, **version 0.3.0** (`black.exe` and `blackrt.dll`), working with your copy of the
+  game.
 - The disc's files extracted to the port's `game` folder, original or translated.
-
-**PC port 0.2.0 build (PT-BR)**
-
-- The PC port of BLACK by Spark198, version 0.2.0 (`black.exe` and `blackrt.dll`), working with your copy of the game.
-- The disc's files, translated or original.
 
 ## Install
 
@@ -139,9 +141,7 @@ The first time, the mod adds its hooks to the recomp's build and the recomp comp
 moment. When the recomp asks "The game is ready. Start the game now?", leave **Delete the compiler files** unticked.
 **CHALLENGE MODE** shows up on the main menu and **MODS** on the pause menu.
 
-### PC port (Spark198)
-
-Both port builds install the same way.
+### PC port 0.3.0 (Spark198)
 
 1. Copy `winmm.dll` into the folder where `black.exe` is: the `port` folder, beside `game`:
 
@@ -157,8 +157,7 @@ Both port builds install the same way.
 2. Start the game with `black.exe`, as usual.
 
 The first time, the mod creates `black_mods.ini` and builds its menu pages from your game's own. **CHALLENGE MODE**
-(**MODO DESAFIO** in the PT-BR build) shows up on the main menu and **MODS** on the pause menu. There is no installer
-to run.
+shows up on the main menu and **MODS** on the pause menu. There is no installer to run.
 
 ## Update and uninstall
 
@@ -173,14 +172,14 @@ start. Do not just delete `winmm.dll`: the game the recomp compiled with the mod
 delete `black_mods.ini`, the `black_mods*.log` files, `black_mods_gold.dat`, `black_mods_challenges.ini` and the
 `hdd\E\TDATA\45410083\ReloadedMod` folder.
 
-**Uninstall a PC port build:** delete `winmm.dll`. If you want, also delete `black_mods.ini`, the logs and the
-`black_mods_menus` and `black_mods_gold` folders (`black_mods_ouro` in the PT-BR build).
+**Uninstall the PC port build:** delete `winmm.dll`. If you want, also delete the `black_mods*` files (the options,
+the logs, the progress and the records) and the `black_mods_menus` and `black_mods_gold` folders.
 
 ## Keys
 
 | Key | What it does |
 |---|---|
-| `C` (`Space` in the port 0.3.0 build) | jump |
+| `C` on the recomp, `Space` on the port | jump |
 | `LCtrl` (hold) | sprint |
 | `F1` | free camera |
 | `F2` | hide and show the HUD |
@@ -188,20 +187,19 @@ delete `black_mods.ini`, the `black_mods*.log` files, `black_mods_gold.dat`, `bl
 | `F4` | noclip |
 | `F9` | save the last 30 seconds of sound (XBE Recomp only) |
 
-Every key and option can be changed on the MODS page or in `black_mods.ini`. The port 0.3.0 crouches with `C`, so its
-build jumps with `Space`; the port 0.3.0 also shows the objectives with `Space` (for a few seconds, without pausing),
-which you can move to another key in PC SETTINGS > CONTROLS > KEY BINDINGS.
+Every key and option can be changed on the MODS page or in `black_mods.ini`. The port 0.3.0 crouches with `C`, so the
+port build jumps with `Space`; the port 0.3.0 also shows the objectives with `Space` (for a few seconds, without
+pausing), which you can move to another key in PC SETTINGS > CONTROLS > KEY BINDINGS.
 
 ## The mods
 
 Almost every mod turns on and off on the MODS page and applies in the same game. Mods marked *Recomp only* or *Port
-only* (both port builds) exist only in those builds; *PT-BR* marks what the PT-BR port build has, and the recomp too
-with the PT-BR translation's disc.
+only* exist only in that build; *PT-BR disc* marks what the mod does with the PT-BR translated game.
 
 ### Movement
 
-- **Jump** (`C`): the character can jump. Speed and gravity can be adjusted, and each jump costs 15% of the sprint's
-  stamina.
+- **Jump** (`C` on the recomp, `Space` on the port): the character can jump. Speed and gravity can be adjusted, and
+  each jump costs 15% of the sprint's stamina.
 - **Sprint** (`LCtrl`, hold): runs 1.6× faster, moving forward only. The stamina lasts 6 s and shows as a blue bar below
   the health. In third person the body's running animation plays at 1.3×.
 - **Noclip** (`F4`): goes through walls, floors and objects and flies where you look, without losing control of the
@@ -222,8 +220,8 @@ with the PT-BR translation's disc.
   enemies) and, for most soldiers, the skin of each mission they appear in. On the MODS page (PLAYER BODY) the chosen
   character turns on a display beside the options. He holds the same weapon, walks, crouches and points where the
   crosshair hits, with no pose of his own: the barrel stays on the crosshair walking, crouched or turning. An enemy
-  model is drawn over the ally's moves, so every model aims the same way and none holds a shield. The body stays still while the free camera looks around, and only the footsteps of the character in view
-  play.
+  model is drawn over the ally's moves, so every model aims the same way and none holds a shield. The body stays still
+  while the free camera looks around, and only the footsteps of the character in view play.
 - **Modern aim:** when aiming, the weapon goes to the line of sight, with the rear and front sights at the centre of the
   screen, and stays still even while walking. The shotguns aim the same way. Weapons without an aim pose, like the P90,
   keep their crosshair.
@@ -278,15 +276,14 @@ with the PT-BR translation's disc.
   problems.
 - **The game's language** (*Recomp only*): the mod's texts in English or Brazilian Portuguese, as the disc you play.
   See [The game's language](#the-games-language).
-- **PC SETTINGS in Portuguese** (*PT-BR port build*): the port's PC settings translated, on the main menu and on the
-  pause menu. QUIT became SAIR.
-- **Text fixes** (*PT-BR*): BLACK OPS in place of "Black", MISSÃO FRACASSADA and the descriptions of the Hard and Black
-  Ops difficulties.
-- **Menu fixes** (*PT-BR*): the highlight bars cover the Portuguese texts, and the LIGADO/DESLIGADO of the pause OPTIONS
-  no longer overlaps.
+- **Text fixes** (*PT-BR disc*): BLACK OPS in place of "Black" on both builds; on the recomp, also MISSÃO FRACASSADA
+  and the descriptions of the Hard and Black Ops difficulties; on the port, the sentences the port 0.3.0 writes with
+  COMPUTER, back in Portuguese.
+- **Menu fixes** (*Recomp only, PT-BR disc*): the highlight bars cover the Portuguese texts, and the LIGADO/DESLIGADO
+  of the pause OPTIONS no longer overlaps.
 - **Faster menu texts** (*Port only*): the menu texts appear at twice the speed, without touching the panels' slide.
 - **Crash log** (*Port only*): when the game closes with an error, the port's log of that game is kept in
-  `black_previous_crash.log` (`black_falha_anterior.log` in the PT-BR build).
+  `black_previous_crash.log`.
 
 ### Fixes of the game
 
@@ -301,7 +298,8 @@ with the PT-BR translation's disc.
 ## Challenge mode
 
 The game still holds what is left of a challenge mode that was cut before release. The mod brings it back as
-**CHALLENGE MODE** on the main menu (**MODO DESAFIO** in Portuguese): choose a level, a type and a difficulty.
+**CHALLENGE MODE** on the main menu (**MODO DESAFIO** on the recomp with the PT-BR disc): choose a level, a type and a
+difficulty.
 
 | Type | Goal |
 |---|---|
@@ -312,7 +310,7 @@ The game still holds what is left of a challenge mode that was cut before releas
 Killing Time and Head Count have medals and records per level. The speedrun records of each mission and difficulty are
 in the OPERATOR PROFILE. The challenge always uses its own weapon, even with the silver M16A2 turned on.
 
-![A Killing Time challenge on the PC port](images/ptbr_challenge_mode.jpg)
+![The challenge types on the PC port 0.3.0](images/port_en_challenge_mode.jpg)
 
 ## Seventh Wave
 
@@ -347,8 +345,7 @@ Killing more never raises the minimum.
 | 2 | the 8 missions on the Seventh Wave without mods | the gold weapons and the cheats |
 
 A mission counts when it is played from start to finish without mods (the PLAY WITHOUT MODS answer) and with the
-required objectives met. The progress is kept in `black_mods_gold.dat` (`black_mods_ouro.dat` in the PT-BR port
-build).
+required objectives met. The progress is kept in `black_mods_gold.dat`.
 
 ## The MODS page and black_mods.ini
 
@@ -362,7 +359,8 @@ You can also edit `black_mods.ini` with the game closed. The recomp's sound opti
 
 - Windows loads a `winmm.dll` found in the game's folder. The mod's DLL passes the real calls on to Windows' own
   `winmm.dll` and starts the mod.
-- **PC port:** the mod changes the game's code in memory when it starts. Nothing in the game's folder is overwritten.
+- **PC port 0.3.0:** the mod changes the game's code in memory when it starts. Nothing in the game's folder is
+  overwritten.
 - **XBE Recomp:** the recomp compiles the Xbox game into a PC program. On the first start the mod adds its hooks to the
   recomp's build (keeping the original files as `game.toml.original` and `BLACK_original.lib`), and the recomp
   compiles the game again with them.
@@ -378,21 +376,20 @@ You can also edit `black_mods.ini` with the game closed. The recomp's sound opti
 ## Troubleshooting
 
 - **What did the mod do?** `black_mods.log`, next to `winmm.dll`, shows what each mod did and what stayed off. The last
-  three sessions' logs are kept as `black_mods_previous1..3.log` (`black_mods_anterior1..3.log` in the PT-BR build).
-- **The mod's menus do not show (port).** Each port build needs its own port version: the 0.3.0 build the port 0.3.0,
-  the PT-BR build the port 0.2.0 (either language of the game works). With another version, the mod's pages stay off
-  and the log says which page did not match.
+  three sessions' logs are kept as `black_mods_previous1..3.log`.
+- **The mod's menus do not show (port).** The port build needs the port 0.3.0 (either language of the game works).
+  With another version, the mod's pages stay off and the log says which page did not match.
 - **The mod's texts are not in the language I want (recomp).** Set `language = en` or `pt` in `[mods]` of
   `black_mods.ini`; `auto` follows the disc, and `black_mods.log` says which language it found.
 - **My profile is gone after changing the disc.** The translated disc and the original one keep separate profiles (the
   game names the save after its own text): put the other disc back to see the other profile. The mod's progress and
   records are shared.
-- **Jumping also shows the objectives (port 0.3.0).** The port 0.3.0 shows the objectives with `Space`, the build's
-  jump key. Move Show objectives to another key in PC SETTINGS > CONTROLS > KEY BINDINGS, or pick another jump key in
+- **Jumping also shows the objectives (port).** The port 0.3.0 shows the objectives with `Space`, the build's jump
+  key. Move Show objectives to another key in PC SETTINGS > CONTROLS > KEY BINDINGS, or pick another jump key in
   MODS > JUMP (not `C`, the port's crouch).
-- **The mod does not install itself (recomp).** The recomp's `compiler` folder is needed. If it was deleted, reinstall
-  the recomp and copy `winmm.dll` again. When the recomp asks to start the game, leave **Delete the compiler files**
-  unticked.
+- **The mod does not install itself (recomp).** The mod needs the XBE Recomp V3 or newer and its `compiler` folder. If
+  the folder was deleted, reinstall the recomp and copy `winmm.dll` again. When the recomp asks to start the game,
+  leave **Delete the compiler files** unticked.
 - **The first start takes longer (recomp).** It is the recomp compiling the game with the mod's hooks. It happens again
   only when a new version has other hooks.
 - **The sound seems blown out (recomp).** The game mixes very loud, over YouTube and 6 to 13 dB over other games. The mod
@@ -403,8 +400,7 @@ You can also edit `black_mods.ini` with the game closed. The recomp's sound opti
 - **The sound cuts out and comes back in bursts (recomp).** Another program keeps the processor busy (a video render,
   a download, a compile). Keep `priority = 2` in `[audio]` (the default): the game's sound thread goes first.
   `black_mods.log` says when a block of sound came late.
-- **The game crashed (port).** The port's log of that game is kept in `black_previous_crash.log`
-  (`black_falha_anterior.log` in the PT-BR build).
+- **The game crashed (port).** The port's log of that game is kept in `black_previous_crash.log`.
 
 ## Screenshots
 
@@ -412,24 +408,27 @@ You can also edit `black_mods.ini` with the game closed. The recomp's sound opti
 |---|---|
 | ![Third person with the player body and the squad](images/third_person_squad.jpg) | ![The Seventh Wave results](images/seventh_wave_results.jpg) |
 | Third person with the player body and the squad (XBE Recomp) | The Seventh Wave results (XBE Recomp) |
-| ![Third person on the PC port](images/ptbr_third_person.jpg) | ![Modern aim on the PC port](images/ptbr_modern_aim.jpg) |
-| Third person (PC port) | Modern aim (PC port) |
-| ![The character display on the PC port](images/ptbr_character_display.jpg) | ![The Seventh Wave objective on the loading screen](images/ptbr_seventh_wave_loading.jpg) |
-| The character display (PC port) | The annihilation objective on the loading screen (PC port) |
-| ![The challenge mode on the PC port 0.3.0](images/port_en_challenge_mode.jpg) | ![The MODS page on the PC port 0.3.0](images/port_en_mods_page.jpg) |
-| The challenge mode (PC port 0.3.0, English) | The MODS page (PC port 0.3.0, English) |
-| ![The MODS page on the recomp with the PT-BR disc](images/recomp_ptbr_mods_page.jpg) | ![The difficulty page on the recomp with the PT-BR disc](images/recomp_ptbr_difficulty.jpg) |
-| The MODS page (XBE Recomp, PT-BR disc) | The difficulty page and BLACK OPS (XBE Recomp, PT-BR disc) |
+| ![Third person on the PC port 0.3.0](images/port_en_third_person.jpg) | ![Modern aim on the PC port 0.3.0](images/port_en_modern_aim.jpg) |
+| Third person (PC port 0.3.0) | Modern aim (PC port 0.3.0) |
+| ![The character display on the PC port 0.3.0](images/port_en_character_display.jpg) | ![The Seventh Wave objective on the loading screen](images/port_en_seventh_wave_loading.jpg) |
+| The character display (PC port 0.3.0) | The annihilation objective on the loading screen (PC port 0.3.0) |
+| ![The Seventh Wave on the difficulty page](images/port_en_seventh_wave_difficulty.jpg) | ![The MODS page on the PC port 0.3.0](images/port_en_mods_page.jpg) |
+| The Seventh Wave on the difficulty page (PC port 0.3.0) | The MODS page (PC port 0.3.0) |
+| ![The challenge options on the recomp with the PT-BR disc](images/recomp_ptbr_mods_page.jpg) | ![The difficulty page on the recomp with the PT-BR disc](images/recomp_ptbr_difficulty.jpg) |
+| The challenge options on the MODS page (XBE Recomp, PT-BR disc) | The difficulty page and BLACK OPS (XBE Recomp, PT-BR disc) |
 
 ## Version history
 
 **1.9**
+- Supported: the XBE Recomp V3 or newer and the PC port 0.3.0 by Spark198, each with the original US disc or the
+  PT-BR translated one.
 - Recomp: the mod's texts follow the game's language (English, or Brazilian Portuguese with the PT-BR translation's
   disc image), every text checked to fit its place in both languages; with the PT-BR disc it also mends the
   translation's BLACK OPS, MISSÃO FRACASSADA, Hard description and pause OPTIONS. The MODS page's values moved right
   (REGROUP AT CHECKPOINT ran into its value).
-- PC port 0.3.0: a new build, in English, for the US disc without any translation (the jump on `Space`, because the
-  port 0.3.0 crouches with `C`).
+- PC port: the build is made for the port 0.3.0, with the mod's texts in English (the jump on `Space`, because the
+  port 0.3.0 crouches with `C`); with the PT-BR translated game, it puts the sentences the port writes with COMPUTER
+  back into Portuguese.
 - Character display on MODS > PLAYER BODY and a SKIN row with the outfit of each mission.
 - The 7 enemy models are only a look over the ally's skeleton: they all aim, walk and turn the same way, and none holds
   a shield. Pistol pose on every model.
@@ -457,7 +456,7 @@ You can also edit `black_mods.ini` with the game closed. The recomp's sound opti
 
 **1.7**
 - PC port: first release, with 27 mods, the MODS page, the challenge mode, speedrun, Black Ops with or without mods,
-  the Seventh Wave, the gold weapons and the PC SETTINGS in Portuguese.
+  the Seventh Wave and the gold weapons.
 
 The full changelog of each build is in `CHANGELOG.md` inside its package.
 
@@ -471,12 +470,6 @@ BLACK is a trademark and property of Criterion Games and Electronic Arts. This i
 and it ships no game file. You need your own copy of the game.
 
 ## Credits
-
-- **BLACK:** Criterion Games and Electronic Arts.
-- **PC port of BLACK:** Spark198.
-- **XBE Recomp of BLACK:** its authors.
-- **BLACK Reloaded Mod:** Kromer.
-
 
 - **BLACK:** Criterion Games and Electronic Arts.
 - **PC port of BLACK:** Spark198.
